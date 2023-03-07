@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="assets_backend" name="wt hewalat assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/wt_hewalat/static/src/scss/style.scss"/>
+        <script type="text/javascript" src="/wt_hewalat/static/src/js/limit_upload_size.js"/>
+    </xpath>
+
+  </template>
+</odoo>

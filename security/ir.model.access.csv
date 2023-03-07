@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+wt_hewalat_bank_account_read_only,access.wt_hewalat.bank.account.read_only,model_wt_hewalat_bank_account,wt_hewalat_search_user,1,0,0,0
+wt_hewalat_bank_account_full_access,access.wt_hewalat.bank.account.full_access,model_wt_hewalat_bank_account,wt_hewalat_manager,1,1,1,1
+wt_hewalat_wizrd_read_create,access.wt_hewalat.wizard.read_create,model_wt_hewalat_banktransfer_wizard,wt_hewalat_search_user,1,0,1,0
+wt_hewalat_wizard_full_access,access.wt_hewalat.wizard.full_access,model_wt_hewalat_banktransfer_wizard,wt_hewalat_manager,1,1,1,1
+wt_hewalat_import_wizard_full_access,access.wt_hewalat.import.wizard.full_access,model_wt_hewalat_banktransfer_import_wizard,wt_hewalat_manager,1,1,1,1
+wt_hewalat_bank_transfer_read_only,access.wt_hewalat.bank.transfer.read_only,model_wt_hewalat_bank_transfer,wt_hewalat_search_user,1,0,0,0
+wt_hewalat_bank_transfer_full_access,access.wt_hewalat.bank.transfer.full_access,model_wt_hewalat_bank_transfer,wt_hewalat_manager,1,1,1,1
+
+

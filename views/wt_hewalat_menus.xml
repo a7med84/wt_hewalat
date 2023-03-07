@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="wt_hewalat_menu_root" name="Bank Transfers Search" web_icon="wt_hewalat,static/description/icon.png">
+        <menuitem id="wt_hewalat_bank_account_menuitem" action="wt_hewalat_bank_account_action" sequence="0"/>
+        <menuitem id="wt_hewalat_bank_transfers" action="wt_hewalat_bank_transfers_action" sequence="20"/>
+    </menuitem>
+</odoo>

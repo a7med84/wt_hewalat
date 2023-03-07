@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--    tree views -->
+    <record id="wt_hewalat_bank_account_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.account.tree</field>
+        <field name="model">wt.hewalat.bank.account</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Accounts" class="bank_accounts_tree" export_xlsx="0">
+                <field name="id" class="hewlat-narrow-cell" groups="wt_hewalat.group_see_bank_account_id"/>
+                <field name="name" groups="wt_hewalat.group_see_bank_account_name"/>
+                <field name="bank" class="hewlat-narrow-cell" groups="wt_hewalat.group_see_bank_account_bank"/>
+                <field name="has_transfers" class="hewlat-narrow-cell" groups="wt_hewalat.group_see_bank_account_search_icon"/>
+                <button name="action_search_wizard" icon="fa-search" type="object" groups="wt_hewalat.group_see_bank_account_search_icon"/>
+            </tree>
+        </field>
+    </record>
+
+    <!--    form views -->
+    <record id="wt_hewalat_bank_account_view_form" model="ir.ui.view">
+        <field name="name">wt_hewalat_bank_account_form</field>
+        <field name="model">wt.hewalat.bank.account</field>
+        <field name="arch" type="xml">
+            <form string="Bank Account">
+                <sheet>
+                    <h1 class="mb32">Bank Account</h1>
+                    <group col="2">
+                        <group>
+                            <field name="name"/>
+                            <field name="bank" />
+                            <field name="has_transfers" invisible="1"/>
+                            <p style="color: red" attrs="{'invisible':[('has_transfers', '=', True)]}">No Transfers Added</p>
+                        </group>
+                        <group attrs="{'invisible':[('has_transfers', '=', False)]}">
+                            <field name="transfers_min_date"/>
+                            <field name="transfers_max_date"/>
+                        </group>
+                    </group>
+                    <group attrs="{'invisible':[('has_transfers', '=', False)]}">
+                        <button name="action_search_wizard" type="object" icon="fa-search" string="Search" class="oe_highlight" groups="wt_hewalat.group_see_bank_account_search_icon"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--    actions -->
+    <record id="wt_hewalat_bank_account_action" model="ir.actions.act_window">
+        <field name="name">Bank Accounts</field>
+        <field name="res_model">wt.hewalat.bank.account</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No Account Added
+            </p>
+        </field>
+    </record>
+</odoo>
+

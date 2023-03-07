@@ -1,0 +1,19 @@
+.bank_accounts_tree >* table{
+    text-align: center !important;
+    thead > tr > th[data-name="id"], th[data-name="bank"], th:last-child{
+        width: 12rem !important;
+        text-align: center !important;
+    }
+
+    tbody > tr > td:last-child{
+        width: 12rem !important;
+        text-align: center !important;
+    }
+}
+
+.hewlat-narrow-cell{
+    width: 12rem !important;
+    text-align: center !important;
+}
+
+

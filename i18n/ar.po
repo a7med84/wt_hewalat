@@ -1,0 +1,650 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* wt_hewalat
+# Translators:
+# Ahmed Addawody <a7med84@gmail.com>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-29 13:59+0000\n"
+"PO-Revision-Date: 2023-01-29 13:59+0000\n"
+"Last-Translator: # Ahmed Addawody <a7med84@gmail.com>, 2023\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ar\n"
+
+#. module: wt_hewalat
+#: model_terms:ir.actions.act_window,help:wt_hewalat.wt_hewalat_bank_transfers_search_action
+msgid "\"Perform a search to display the results\""
+msgstr "\"قم بالبحث لعرض النتائج\""
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__bank_account
+msgid "Account"
+msgstr "الحساب البنكي"
+
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__account_id
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__bank_account
+msgid "Account"
+msgstr "الحساب البنكي"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_account_view_form
+msgid "Bank Account"
+msgstr "حساب بنكي"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "Adding transfers is not implemented for bank "
+msgstr "إضافة التحويلات غير مفعل لبنك "
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__balance
+msgid "Balance"
+msgstr "إدخال الرصيد"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__balance_comp
+msgid "Balance Comp"
+msgstr "الرصيد"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__bank
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__bank_account_id
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__bank
+msgid "Bank"
+msgstr "البنك"
+
+#. module: wt_hewalat
+#: model:ir.model,name:wt_hewalat.model_wt_hewalat_bank_account
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__bank_account_id
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_account_view_form
+msgid "Bank Account"
+msgstr "الحساب البنكي"
+
+#. module: wt_hewalat
+#: model:ir.actions.act_window,name:wt_hewalat.wt_hewalat_bank_account_action
+#: model:ir.ui.menu,name:wt_hewalat.wt_hewalat_bank_account_menuitem
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_account_view_tree
+msgid "Bank Accounts"
+msgstr "الحسابات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.model,name:wt_hewalat.model_wt_hewalat_bank_transfer
+msgid "Bank Transfer"
+msgstr "الحوالة البنكية"
+
+#. module: wt_hewalat
+#: model:ir.actions.act_window,name:wt_hewalat.wt_hewalat_bank_transfers_action
+#: model:ir.ui.menu,name:wt_hewalat.wt_hewalat_bank_transfers
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Bank Transfers"
+msgstr "الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.actions.act_window,name:wt_hewalat.wt_hewalat_bank_transfers_import_action
+#: model:ir.ui.menu,name:wt_hewalat.wt_hewalat_bank_transfers_import_menuitem
+msgid "Bank Transfers Import"
+msgstr "استيراد الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.wt_hewalat_manager
+msgid "Bank Transfers Manager"
+msgstr "مدير الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.module.category,name:wt_hewalat.wt_hewalat_permissions_category
+msgid "Bank Transfers Permissions"
+msgstr "صلاحيات الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.actions.act_window,name:wt_hewalat.wt_hewalat_bank_transfers_search_action
+#: model:ir.ui.menu,name:wt_hewalat.wt_hewalat_menu_root
+msgid "Bank Transfers Search"
+msgstr "بحث الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.wt_hewalat_search_user
+msgid "Bank Transfers Searcher"
+msgstr "مؤدي بحث الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.module.category,name:wt_hewalat.wt_hewalat_main_category
+msgid "Bank transfers Settings"
+msgstr "إعدادات بحث الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.module.category,name:wt_hewalat.wt_hewalat_user_type_category
+msgid "Bank transfers User Type"
+msgstr "فئة مستخدم الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.model,name:wt_hewalat.model_wt_hewalat_banktransfer_import_wizard
+msgid "Banktransfer import wizard"
+msgstr "نموذج استيراد الحوالات البنكية"
+#. module: wt_hewalat
+#: model:ir.model,name:wt_hewalat.model_wt_hewalat_banktransfer_wizard
+msgid "Banktransfer wizard"
+msgstr "معالج بحث الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_import_view
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_search_view
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__channel
+msgid "Channel"
+msgstr "إدخال قناة الاتصال"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Channel"
+msgstr "قناة الاتصال"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__channel_comp
+msgid "Channel Comp"
+msgstr "قناة الاتصال"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__create_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__create_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__create_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__create_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__create_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__create_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__credit
+msgid "Credit"
+msgstr "إدخال دائن"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Credit"
+msgstr "دائن"
+
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__credit_comp
+msgid "Credit Comp"
+msgstr "دائن"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__date
+msgid "Date"
+msgstr "التاريخ الميلادي"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__date_comp
+msgid "Date Comp"
+msgstr "التاريخ الميلادي"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__date_format
+msgid "Date Format"
+msgstr "تنسيق التاريح"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__date_from
+msgid "Date From"
+msgstr "التاريخ من"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__date_hijri_comp
+msgid "Date Hijri Comp"
+msgstr "التاريخ الهجري"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__date_to
+msgid "Date To"
+msgstr "التاريخ إلى"
+
+#. module: wt_hewalat
+#: model:ir.model.fields.selection,name:wt_hewalat.selection__wt_hewalat_banktransfer_import_wizard__date_format__%d/%m/%y
+msgid "Day First"
+msgstr "اليوم أولا"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__debit
+msgid "Debit"
+msgstr "إدخال مدين"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Debit"
+msgstr "مدين"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__debit_comp
+msgid "Debit Comp"
+msgstr "مدين"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__details
+msgid "Details"
+msgstr "تفاصيل العملية"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__details_comp
+msgid "Details Comp"
+msgstr "تفاصيل العملية"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__details_extra_comp
+msgid "Details Extra Comp"
+msgstr "تفاصيل إضافية"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_report.py:0
+#, python-format
+msgid "Details Field cannot be less than 4 letters"
+msgstr "يجب ألا يقل حقل التفاصيل عن 4 حروف"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__display_name
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__display_name
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__display_name
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR columns: "
+msgstr "خطأ بأعمدة: "
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR while readig the file: "
+msgstr "خطأ أثناء قراءة الملف: "
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Credit or debit columns values not correct"
+msgstr "خطأ: يوجد سجلات بدون دائن/مدين أو خاطئة "
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Invalid number format: "
+msgstr "حطأ: تنسيق الرقم غير صحيح: "
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Some rows have empty balance"
+msgstr "خطأ: يوجد سجلات بدون رصيد"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Some rows have empty credit"
+msgstr "حطأ: يوجد سجلات بدون دائن/مدين"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Some rows have empty date"
+msgstr "خطأ: يوجد سجلات بدون تاريخ"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Some rows have empty details"
+msgstr "خطأ يوجد سجلات بدون التفاصيل"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "ERROR: Some rows have empty reference"
+msgstr "خطأ: يوجد سجلات بدون الرقم المرجعي"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid ""
+"ERROR: date format used in the selected file does not match the date format field"
+msgstr ""
+"خطأ: تنسيق التاريخ في الملف المحدد مختلف عن التسيق المختار"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__details_extra
+msgid "Extra Details"
+msgstr "إدخال تفاصيل إضافية"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Extra Details"
+msgstr "تفاصيل إضافية"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__file_name
+msgid "File Name"
+msgstr "اسم الملف"
+
+#. module: wt_hewalat
+#. openerp-web
+#: code:addons/wt_hewalat/static/src/js/limit_upload_size.js:0
+#, python-format
+msgid "File upload"
+msgstr "تحميل الملف"
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__date
+msgid "Gregorian Date"
+msgstr "إدخال التاريخ الميلادي"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Gregorian Date"
+msgstr "التاريخ الميلادي"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__has_transfers
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__has_transfers
+msgid "Has Transfers"
+msgstr "هل يوجد حوالات بالحساب ؟"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__date_hijri
+msgid "Hijri Date"
+msgstr "إدخال التاريخ الهجري"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Hijri Date"
+msgstr "التاريخ الهجري"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__id
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__id
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__id
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_import_view
+msgid "Import"
+msgstr "استيراد"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_search_view
+msgid "Information"
+msgstr "معلومات"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account____last_update
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer____last_update
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard____last_update
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard____last_update
+msgid "Last Modified on"
+msgstr "تاريخ آخر تعديل"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__write_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__write_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__write_uid
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__write_uid
+msgid "Last Updated by"
+msgstr "مؤدي آخر تحديث"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__write_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__write_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__write_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__write_date
+msgid "Last Updated on"
+msgstr "تاريخ آخر تحديث"
+
+#. module: wt_hewalat
+#: model:ir.model.fields.selection,name:wt_hewalat.selection__wt_hewalat_banktransfer_import_wizard__date_format__%m/%d/%y
+msgid "Month First"
+msgstr "الشهر أولا"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: wt_hewalat
+#: model_terms:ir.actions.act_window,help:wt_hewalat.wt_hewalat_bank_account_action
+msgid "No Account Added"
+msgstr "لا يوجد حسابات مضافة"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#: code:addons/wt_hewalat/wizard/banktransfer_report.py:0
+#, python-format
+msgid "No Results"
+msgstr "لا توجد نتائج مطابقة"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_search_view
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_account_view_form
+msgid "No Transfers Added"
+msgstr "لا يوجد حوالات مضافة"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_report.py:0
+#, python-format
+msgid "No inputs entered"
+msgstr "لم يتم إدخال أي معامل للبحث!!"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__notes
+msgid "Notes"
+msgstr "إدخال الملاحظات"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__notes_comp
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Notes Comp"
+msgstr "ملاحظات"
+
+#. module: wt_hewalat
+#: model_terms:ir.actions.act_window,help:wt_hewalat.wt_hewalat_bank_transfers_action
+msgid "Perform a search to display the results"
+msgstr "قم بالبحث لعرض النتائج"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__reference_comp
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Reference Comp"
+msgstr "الرقم المرجعي"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_report.py:0
+#, python-format
+msgid "Reference Field cannot be less than 4 letters"
+msgstr "يجب ألا يقل حقل الرقم المرجعي عن 4 حروف"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__reference
+msgid "Reference Number"
+msgstr "الرقم المرجعي"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__reference
+msgid "Refernce #"
+msgstr "إدخال الرقم المرجعي"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.bank_transfer_search_view
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_account_view_form
+msgid "Search"
+msgstr "بحث"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_bank_account_bank
+msgid "See Bank Account Bank"
+msgstr "الاطلاع على البنك للحساب البنكي"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_bank_account_id
+msgid "See Bank Account Id"
+msgstr "الاطلاع على معرف الحساب البنكي"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_bank_account_name
+msgid "See Bank Account Name"
+msgstr "الاطلاع على اسم الحساب البنكي"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_bank_account_search_icon
+msgid "See Bank Account Search Icon"
+msgstr "الاطلاع على أيقونة بحث"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_balance
+msgid "See Transfer Balance"
+msgstr "الاطلاع على الرصيد للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_credit
+msgid "See Transfer Credit"
+msgstr "الاطلاع على دائن للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_debit
+msgid "See Transfer Debit"
+msgstr "الاطلاع على مدين للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_details
+msgid "See Transfer Details"
+msgstr "الاطلاع على تفاصيل العملية للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_extra_details
+msgid "See Transfer Extra_details"
+msgstr "الاطلاع على تفاصيل إضافية للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_gregorian_date
+msgid "See Transfer Gregorian Date"
+msgstr "الاطلاع على التاريخ الميلادي للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_hijri_date
+msgid "See Transfer Hijri Date"
+msgstr "الاطلاع على التاريخ الهجري للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_notes
+msgid "See Transfer Notes"
+msgstr "الاطلاع على ملاحظات الحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_reference
+msgid "See Transfer Reference"
+msgstr "الاطلاع على الرقم المرجعي للحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_time
+msgid "See Transfer Time"
+msgstr "الاطلاع على وقت الحوالات"
+
+#. module: wt_hewalat
+#: model:res.groups,name:wt_hewalat.group_see_transfer_channel
+msgid "See Transfer channel"
+msgstr "الاطلاع على قناة الاتصال للحوالات"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "The file is empty!!"
+msgstr "الملف المحدد فارغ!!"
+
+#. module: wt_hewalat
+#: code:addons/wt_hewalat/wizard/banktransfer_import.py:0
+#, python-format
+msgid "The selected file must be of type \"csv\""
+msgstr "يجب أن يكون الملف المحدد من نوع csv"
+
+#. module: wt_hewalat
+#. openerp-web
+#: code:addons/wt_hewalat/static/src/js/limit_upload_size.js:0
+#, python-format
+msgid "The selected file must be of type %s."
+msgstr "الملف المحدد يجب أن يكون من نوع "
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__time
+msgid "Time"
+msgstr "إدخال الوقت"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Time"
+msgstr "الوقت"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__time_comp
+msgid "Time Comp"
+msgstr "الوقت"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_transfer__details
+msgid "Transfer Details"
+msgstr "إدخال تفاصيل العملية"
+
+#. module: wt_hewalat
+#: model_terms:ir.ui.view,arch_db:wt_hewalat.wt_hewalat_bank_transfer_view_tree
+msgid "Transfer Details"
+msgstr "تفاصيل العملية"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__transfer_ids
+msgid "Transfers"
+msgstr "الحوالات البنكية"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_import_wizard__transfers_file
+msgid "Transfers File"
+msgstr "ملف الحوالات"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__transfers_max_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__transfers_max_date
+msgid "Transfers Max Date"
+msgstr "تاريخ آخر تحويل"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__transfers_min_date
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__transfers_min_date
+msgid "Transfers Min Date"
+msgstr "تاريخ أقدم تحويل"
+
+#. module: wt_hewalat
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_bank_account__user_is_manager
+#: model:ir.model.fields,field_description:wt_hewalat.field_wt_hewalat_banktransfer_wizard__user_is_manager
+msgid "User Is Manager"
+msgstr "هل المستخدم مدير"

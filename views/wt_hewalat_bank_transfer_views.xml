@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--                  tree views              -->
+    <!--    rajhi tree view -->
+    <record id="wt_hewalat_rajhi_transfer_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.transfer.tree</field>
+        <field name="model">wt.hewalat.bank.transfer</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Transfers" export_xlsx="0">
+                <field name="channel_comp" string="Channel" groups="wt_hewalat.group_see_transfer_channel" optional="hide"/>
+                <field name="balance_comp" string="Balance" groups="wt_hewalat.group_see_transfer_balance"/>
+                <field name="debit_comp" string="Debit" groups="wt_hewalat.group_see_transfer_debit"/>
+                <field name="credit_comp" string="Credit" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="details_comp" string="Transfer Details" groups="wt_hewalat.group_see_transfer_details"/>
+                <field name="details_extra_comp" string="Extra Details" groups="wt_hewalat.group_see_transfer_extra_details" optional="hide"/>
+                <field name="time_comp" string="Time" groups="wt_hewalat.group_see_transfer_time" optional="hide"/>
+                <field name="date_hijri_comp" string="Hijri Date" groups="wt_hewalat.group_see_transfer_hijri_date" optional="hide"/>
+                <field name="date_comp" string="Gregorian Date" groups="wt_hewalat.group_see_transfer_gregorian_date"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <!--    ahly tree view -->
+    <record id="wt_hewalat_ahly_transfer_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.transfer.tree</field>
+        <field name="model">wt.hewalat.bank.transfer</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Transfers" export_xlsx="0">
+                <field name="date_comp" string="Gregorian Date" groups="wt_hewalat.group_see_transfer_gregorian_date"/>
+                <field name="details_extra_comp" string="Extra Details" groups="wt_hewalat.group_see_transfer_extra_details" optional="hide"/>
+                <field name="details_comp" string="Transfer Details" groups="wt_hewalat.group_see_transfer_details"/>
+                <field name="notes_comp" string="Notes" groups="wt_hewalat.group_see_transfer_notes" optional="hide"/>
+                <field name="reference_comp" string="Reference" groups="wt_hewalat.group_see_transfer_reference"/>
+                <field name="channel_comp" string="Channel" groups="wt_hewalat.group_see_transfer_channel" optional="hide"/>
+                <field name="debit_comp" string="Debit" groups="wt_hewalat.group_see_transfer_debit"/>
+                <field name="credit_comp" string="Credit" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="balance_comp" string="Balance" groups="wt_hewalat.group_see_transfer_balance"/> 
+            </tree>
+        </field>
+    </record>
+
+
+    <!--    inma tree view -->
+    <record id="wt_hewalat_inma_transfer_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.transfer.tree</field>
+        <field name="model">wt.hewalat.bank.transfer</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Transfers" export_xlsx="0">
+                <field name="balance_comp" string="Balance" groups="wt_hewalat.group_see_transfer_balance"/>
+                <field name="credit_comp" string="Credit" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="details_comp" string="Transfer Details" groups="wt_hewalat.group_see_transfer_details"/>
+                <field name="reference_comp" string="Reference" groups="wt_hewalat.group_see_transfer_reference"/>
+                <field name="date_comp" string="Gregorian Date" groups="wt_hewalat.group_see_transfer_gregorian_date"/>
+            </tree>
+        </field>
+    </record>
+
+
+     <!--    belad tree view -->
+    <record id="wt_hewalat_belad_transfer_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.transfer.tree</field>
+        <field name="model">wt.hewalat.bank.transfer</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Transfers" export_xlsx="0">
+                <field name="date_comp" string="Gregorian Date" groups="wt_hewalat.group_see_transfer_gregorian_date"/>
+                <field name="date_hijri_comp" string="Hijri Date" groups="wt_hewalat.group_see_transfer_hijri_date" optional="hide"/>
+                <field name="debit_comp" string="Debit" groups="wt_hewalat.group_see_transfer_debit"/>
+                <field name="credit_comp" string="Credit" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="balance_comp" string="Balance" groups="wt_hewalat.group_see_transfer_balance"/>
+                <field name="reference_comp" string="Reference" groups="wt_hewalat.group_see_transfer_reference"/>
+                <field name="details_extra_comp" string="Extra Details" groups="wt_hewalat.group_see_transfer_extra_details" optional="hide"/>       
+                <field name="details_comp" string="Transfer Details" groups="wt_hewalat.group_see_transfer_details"/>
+            </tree>
+        </field>
+    </record>
+
+
+
+     <!--    sab tree view -->
+    <record id="wt_hewalat_sab_transfer_view_tree" model="ir.ui.view">
+        <field name="name">wt.hewalat.bank.transfer.tree</field>
+        <field name="model">wt.hewalat.bank.transfer</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Transfers" export_xlsx="0">
+                <field name="credit_comp" string="Credit" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="currency_comp" groups="wt_hewalat.group_see_transfer_credit"/>
+                <field name="balance_comp" string="Balance" groups="wt_hewalat.group_see_transfer_balance"/>
+                <field name="details_comp" string="Transfer Details" groups="wt_hewalat.group_see_transfer_details"/>
+                <field name="date_comp" string="Gregorian Date" groups="wt_hewalat.group_see_transfer_gregorian_date"/>
+                <field name="reference_comp" string="Reference" groups="wt_hewalat.group_see_transfer_reference"/>   
+            </tree>
+        </field>
+    </record>
+
+
+
+
+     <!--    actions -->
+    <record id="wt_hewalat_bank_transfers_action" model="ir.actions.act_window">
+        <field name="name">Bank Transfers</field>
+        <field name="res_model">wt.hewalat.bank.transfer</field>
+        <field name="view_mode">tree</field>
+        <field name="domain">[('id', '=', -6546311)]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Perform a search to display the results
+            </p>
+        </field>
+    </record>
+</odoo>
